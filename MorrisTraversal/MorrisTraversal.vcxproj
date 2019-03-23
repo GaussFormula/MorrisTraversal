@@ -115,6 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeNode.h" />
+    <ClInclude Include="MorrisTraserval.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTreeNode.cpp" />
+    <ClCompile Include="MorrisTraserval.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
