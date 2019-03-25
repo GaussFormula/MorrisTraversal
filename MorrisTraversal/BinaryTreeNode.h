@@ -18,4 +18,5 @@ public:
 	void setData(const T&t);
 	void setLeftChild(BinaryTreeNode<T>*p);
 	void setRightChild(BinaryTreeNode<T>*p);
+	void displayData(void func(const T&));
 };

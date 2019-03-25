@@ -60,3 +60,9 @@ void BinaryTreeNode<T>::setRightChild(BinaryTreeNode<T>*p)
 {
 	this->RightChild = p;
 }
+
+template<typename T>
+void BinaryTreeNode<T>::displayData(void func(const T&))
+{
+	func(m_data);
+}

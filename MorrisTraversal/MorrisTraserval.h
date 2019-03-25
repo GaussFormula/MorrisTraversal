@@ -13,7 +13,13 @@ template<typename T>
 void MorrisTraserval_preOrder(BinaryTreeNode<T>*p);
 
 template<typename T>
-void MorrisTraserval_inOrder(BinaryTreeNode<T>*p);
+void MorrisTraserval_inOrder(BinaryTreeNode<T>*p);//ÖÐÐò±éÀú
 
 template<typename T>
 void MorrisTraserval_postOrder(BinaryTreeNode<T>*p);
+
+template<typename T>
+void printReverse(BinaryTreeNode<T>*from, BinaryTreeNode<T>*to);
+
+template<typename T>
+void reverse(BinaryTreeNode<T>*from, BinaryTreeNode<T>*to);
